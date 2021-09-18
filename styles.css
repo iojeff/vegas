@@ -104,12 +104,16 @@ h2.day-title small {
     color: #67afda;
 }
 
-.more-info-btn {
-    text-align: center;
+.schedule-more-info ul > li > a {
+    color: #0eb9b2;
 }
 
 .close-more-info {
     position: absolute;
     right: 8px;
-    bottom: 0px;
+    bottom: 2px;
+}
+
+.close-more-info a {
+    color: #ee4266;
 }
