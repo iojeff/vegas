@@ -60,27 +60,8 @@ section.schedule-section .row {
     background: #ffffff;
     padding-bottom: 5px;
 }
-/* .schedule-card:hover .insidebox {
-    transform: scale(1.033);
 
-   
-} */
-/* .schedule-card:hover:after {
-    background: #8a56d1;
-    width: 25px;
-} */
-/* .schedule-card:after {
-    height: 2px;
-    width: 22px;
-    background: #ddd;
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -22px;
-    transition: all 0.3s ease-in;
-} */
 .insidebox { 
-
     width: 100%;
     /*max-width: 96%;*/
     height: auto;
@@ -90,7 +71,6 @@ section.schedule-section .row {
     padding: 10px 20px;
     color: #333;
     transition: all 0.2s ease-in;
-/*    justify-content: center;*/
 }
 
 h2.day-title {
@@ -107,12 +87,9 @@ h2.day-title small {
 
 .schedule-more-info {
     display: block;
-    
     width: 100%;
-    text-align: center;
     padding: 0 15px;
 }
-
 
 .schedule-more-info  .collapse .well {
     position: relative;
@@ -125,6 +102,10 @@ h2.day-title small {
     display: block;
     margin-bottom: 5px;
     color: #67afda;
+}
+
+.more-info-btn {
+    text-align: center;
 }
 
 .close-more-info {
