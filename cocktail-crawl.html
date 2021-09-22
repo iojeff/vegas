@@ -18,28 +18,33 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" /> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link href="styles.css" rel="stylesheet">
+        <!-- <link href="styles.css" rel="stylesheet"> -->
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.svg" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
-                        <li class="nav-item"><a class="nav-link" href="index.html">Itinerary</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cocktail-crawl.html#crawl">Cocktail Crawl</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <nav>
+          <div class="container">
+              <div class="row">
+                  
+                      <div class="col-sm-5 col-md-5 no-padding">
+                          <a  class="logo-link" href="#page-top">
+                              <img src="assets/img/logo.svg" alt="..." height="70px"/>
+                          </a>
+                      </div>
+                      <div class="col-sm-7 col-md-7 no-padding">
+                          <ul class="nav-inline text-right">
+                              <li class="nav-item"><a class="nav-link" href="index.html">Itinerary</a></li>
+                              <li class="nav-item"><a class="nav-link" href="cocktail-crawl.html#crawl">Cocktail Crawl</a></li>
+                          </ul>
+                      </div>
+                  
+              </div>
+          </div>
+      </nav>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
@@ -48,7 +53,154 @@
             </div>
         </header>
         <!-- cocktail crawl -->
-        <section class="page-section" id="crawl">
+        <section>
+            <body>
+                <div class="container">
+                  <div class="page-header text-center">
+                    <h1 id="timeline">Chris' World Famous Cocktail Crawl</h1>
+                  </div>
+                  <ul class="timeline">
+                    <li>
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                
+                    <li class="timeline-inverted">
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+                
+                        </div>
+                        <div class="timeline-body">
+                          <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                
+                        </div>
+                
+                        <div class="timeline-footer primary">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-body">
+                          <p><b>All the credits go to <a href="https://bootsnipp.com/rafamaciel">Rafamaciel</a></b></p>
+                          <p>I only make it responsive and remove the empty spaces to be more like Facebook timeline!</p>
+                        </div>
+                
+                        <div class="timeline-footer primary">
+                          <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          <a><i class="glyphicon glyphicon-share"></i></a>
+                          <a class="pull-right">Continuar Lendo</a>
+                        </div>
+                      </div>
+                    </li>
+                
+                    <li class="clearfix" style="float: none;"></li>
+                  </ul>
+                </div>
+                </body>
+        </section>
+        <!--section class="page-section" id="crawl">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading"><span>Chris' <br><span  class="text-uppercase" style="color: #900;">World Famous</span></span> <br><small>Cocktail Crawl</small></h2>
@@ -108,23 +260,19 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section-->
         <!-- Footer-->
-        <footer class="footer py-4">
+        <footer class="footer">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-8 text-lg-start">Copyright &copy; Chris' World Famous Cocktail Crawl 2021</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                <div class="row">
+                    <div class="text-center">Copyright &copy; Chris' World Famous Cocktail Crawl 2021</div>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- <div id="BackToTop"><i class="fas fa-angle-up"></i></div> -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
     </body>
 </html>
