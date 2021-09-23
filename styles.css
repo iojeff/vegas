@@ -7,7 +7,7 @@
 }
 
 .schedule-section {
-    margin-top: 70px;
+    margin-top: 45px;
 }
 
 section.schedule-section .row {
@@ -572,4 +572,8 @@ nav {
   .timeline-time {
       right: 5px;
   }
+  }
+
+  ul {
+    padding: 0 0 0 15px;
   }
