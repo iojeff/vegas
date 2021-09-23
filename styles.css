@@ -372,8 +372,14 @@ nav {
   .timeline-footer {
     padding: 20px;
     background-color: #f4f4f4;
+
+  }
+
+  .timeline-footer svg,
+  .timeline-footer i {
     font-size: 12px;
   }
+
   
   .timeline-footer > a {
     cursor: pointer;
