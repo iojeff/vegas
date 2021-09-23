@@ -372,6 +372,7 @@ nav {
   .timeline-footer {
     padding: 20px;
     background-color: #f4f4f4;
+    font-size: 12px;
   }
   
   .timeline-footer > a {
