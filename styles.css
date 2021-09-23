@@ -553,7 +553,7 @@ nav {
   .timeline-time {
       position: absolute;
       top: 5px;
-      right: 5px;
+      left: 5px;
       color:  #7d7d7d;
       font-weight: bold;
   }
@@ -561,5 +561,8 @@ nav {
 @media (min-width: 768px) {
   .timeline-time.flip {
       left: 5px;
+  }
+  .timeline-time {
+      right: 5px;
   }
   }
