@@ -558,6 +558,8 @@ nav {
       font-weight: bold;
   }
 
+@media (min-width: 768px) {
   .timeline-time.flip {
       left: 5px;
+  }
   }
