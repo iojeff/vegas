@@ -218,7 +218,7 @@ nav {
 
 .timeline {
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 20px 0 0;
     position: relative;
   }
   
@@ -489,7 +489,7 @@ nav {
   
   @media (max-width: 767px) {
     ul.timeline:before {
-      left: 40px;
+      left: 6px;
     }
     ul.timeline > li {
       margin-bottom: 20px;
@@ -499,9 +499,9 @@ nav {
       clear: left;
     }
     ul.timeline > li > .timeline-panel {
-      width: calc(100% - 90px);
-      width: -moz-calc(100% - 90px);
-      width: -webkit-calc(100% - 90px);
+      width: calc(100% - 25px);
+      width: -moz-calc(100% - 25px);
+      width: -webkit-calc(100% - 25px);
     }
     ul.timeline > li > .timeline-badge {
       left: 28px;
@@ -560,7 +560,7 @@ nav {
   .timeline-time {
       position: absolute;
       top: 5px;
-      left: 5px;
+      left: 8px;
       color:  #7d7d7d;
       font-weight: bold;
   }
