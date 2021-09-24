@@ -567,6 +567,7 @@ nav {
       padding: 2px 5px;
       background: #36afc1;
       border: 1px solid #197886;
+      width: auto;
   }
 
 @media (min-width: 768px) {
