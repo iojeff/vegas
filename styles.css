@@ -351,6 +351,10 @@ nav {
   .timeline-img-cont {
     padding: 25px 25px 0;
   }
+
+  .timeline-img-cont img {
+      margin-top: 15px;
+  }
   
  .timeline-body  {
    padding: 20px;
@@ -564,10 +568,11 @@ nav {
       left: 8px;
       color:  #fff;
       font-weight: bold;
-      padding: 2px 5px;
+      padding: 2px;
       background: #36afc1;
       border: 1px solid #197886;
-      width: auto;
+      width: 74px;
+      text-align: center;
   }
 
 @media (min-width: 768px) {
