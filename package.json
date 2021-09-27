@@ -1,0 +1,8 @@
+{
+  "name": "LS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iojeff/vegas.git",
+  "author": "iojeff <jeff@jeffwolff.io>",
+  "license": "MIT"
+}
