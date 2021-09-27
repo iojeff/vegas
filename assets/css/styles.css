@@ -35,16 +35,23 @@ nav {
 	top: 0;
 	padding: 15px 0;
 }
-.logo-link,.navbar-brand {
+.logo-link,
+.navbar-brand {
 	width: 100%;
 	display: block;
 	text-align: center;
 }
 @media (min-width: 768px) {
-	.logo-link,.navbar-brand {
+	.logo-link,
+  .navbar-brand {
 		text-align: left;
 		width: auto;
 	}
+}
+.logo-link img {
+  height: 95px;
+  width: 209px;
+  background-color: #1c0258;
 }
 .nav-inline {
 	text-align: center;
