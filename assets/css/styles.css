@@ -29,7 +29,7 @@ ul {
 }
 nav {
 	width: 100%;
-	background: #36afc1;
+	background: #11889a;
 	z-index: 99999;
 	position: fixed;
 	top: 0;
@@ -98,7 +98,7 @@ section.schedule-section .row {
 }
 .schedule-warp:hover {
 	box-shadow: 0 6px 20px rgba(0,0,0,.07);
-	border: solid 1px rgba(60,187,177,.97);
+	border: solid 1px #11889a;
 }
 .schedule {
 	padding:100px 0px;
@@ -106,8 +106,8 @@ section.schedule-section .row {
 }
 .schedule-tag {
 	color:#fff;
-	background-color: #36afc1;
-	border: 1px solid #197886;
+	background-color: #11889a;
+	border: 1px solid #0d606d;
 	padding:3px 8px;
 	margin-right: 15px;
 	width: 140px;
@@ -162,10 +162,10 @@ h2.day-title small {
 .schedule-more-info a {
 	display: block;
 	margin-bottom: 5px;
-	color: #67afda;
+	color: #11889a;
 }
 .schedule-more-info ul > li > a {
-	color: #0eb9b2;
+	color: #0d606d;
 }
 .close-more-info {
 	position: absolute;
@@ -455,7 +455,7 @@ h2.day-title small {
 	color: #fff;
 	font-weight: bold;
 	padding: 2px;
-	background: #36afc1;
+	background: #11889a;
 	border: 1px solid #197886;
 	width: 74px;
 	text-align: center;
