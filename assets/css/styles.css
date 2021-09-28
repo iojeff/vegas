@@ -11,6 +11,7 @@ body {
 }
 a {
 	text-decoration: none !important;
+  color: #6c3ed6;
 }
 @media (min-width: 768px) {
 	section {
@@ -150,7 +151,7 @@ h2.day-title {
 	margin-bottom:12px;
 	font-weight: bold;
 	font-size: 18px;
-	color: #03b6b7;
+	color: #4e05f5;
 }
 h2.day-title small {
 	letter-spacing: .95;
@@ -170,10 +171,10 @@ h2.day-title small {
 .schedule-more-info a {
 	display: block;
 	margin-bottom: 5px;
-	color: #1c0258;
+	color: #6c3ed6;
 }
 .schedule-more-info ul > li > a {
-	color: #0d606d;
+	color: #6c3ed6;
 }
 .close-more-info {
 	position: absolute;
@@ -182,6 +183,11 @@ h2.day-title small {
 }
 .close-more-info a {
 	color: #ee4266;
+  font-size: 20px;
+}
+.more-info-btn-span svg{
+  font-size: 16px;
+  vertical-align: middle;
 }
 .timeline {
 	list-style: none;
@@ -223,10 +229,6 @@ h2.day-title small {
 	width: 95%;
 	float: left;
 	border: 1px solid #d4d4d4;
-	/*border-radius: 2px;
-	*/
-	/*padding: 20px;
-	*/
 	position: relative;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -302,6 +304,7 @@ h2.day-title small {
 .timeline-body h3 {
 	margin-top: 0;
 	margin-bottom: 10px;
+  color: #4e05f5;
 }
 .timeline-body > p,.timeline-body > ul {
 	margin-bottom: 0;
