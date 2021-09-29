@@ -11,7 +11,7 @@ body {
 }
 a {
 	text-decoration: none !important;
-  color: #6c3ed6;
+  color: #1c0258;
 }
 @media (min-width: 768px) {
 	section {
@@ -171,10 +171,13 @@ h2.day-title small {
 .schedule-more-info a {
 	display: block;
 	margin-bottom: 5px;
-	color: #6c3ed6;
+	color: #1c0258;
+}
+.schedule-more-info a.more-info-btn {
+	font-weight: bold;
 }
 .schedule-more-info ul > li > a {
-	color: #6c3ed6;
+	color: #1c0258;
 }
 .close-more-info {
 	position: absolute;
